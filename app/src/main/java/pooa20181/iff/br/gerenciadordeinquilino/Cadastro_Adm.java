@@ -1,6 +1,5 @@
 package pooa20181.iff.br.gerenciadordeinquilino;
 
-import android.content.Intent;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
@@ -39,7 +38,7 @@ public class Cadastro_Adm extends AppCompatActivity {
         telefone_adm = (EditText) findViewById(R.id.txtTelefone);
         cadastrar_adm = (Button) findViewById(R.id.btnCadastrar);
 
-        Intent intent    = getIntent();
+
         //realm = Realm.getDefaultInstance();
 
         cadastrar_adm.setOnClickListener( new View.OnClickListener(){
